@@ -7,7 +7,7 @@ class Maestro : public Persona {
 public:
 	Maestro(string Nombre, string Apellido, string NumeroTalentoHumano, double Salario);
 	string obtenerNumero();
-	visual double ingresos() const override;
+	virtual double ingresos() const override;
 	virtual void imprimir() const override;
 };
 
