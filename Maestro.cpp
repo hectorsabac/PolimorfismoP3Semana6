@@ -7,9 +7,6 @@ Maestro::Maestro(string Nombre, string Apellido, string NumeroTalentoHumano, dou
 string Maestro::obtenerNumero() {
 	return NumeroTalentoHumano;
 }
-string Maestro::obtenerNumero() {
-	return NumeroTalentoHumano;
-}
 double Maestro::ingresos() const {
 	return Salario;
 }

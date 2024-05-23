@@ -6,13 +6,12 @@ Persona::Persona(string Nombre, string Apellido) {
 string Persona::obtenerNombre() {
 	return Nombre;
 }
-string Persona::obtenerNombre() {
-	return Nombre;
-}
-
 string Persona::obtenerApellido() {
 	return Apellido;
 }
 void Persona::imprimir() const {
 	cout << Nombre << ' ' << Apellido;
+}
+double Persona::ingresos() const {
+	return -1;
 }
